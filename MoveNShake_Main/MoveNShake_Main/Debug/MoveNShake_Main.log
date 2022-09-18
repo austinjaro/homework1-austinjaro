@@ -1,0 +1,100 @@
+﻿  Bus.cpp
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Transporter.h(18,1): error C2061: syntax error: identifier 'Person'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Transporter.h(22): message : see reference to class template instantiation 'Transporter<ItemType>' being compiled
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Transporter.h(19,1): error C2061: syntax error: identifier 'Person'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(12,16): error C2995: 'Bus<ItemType>::Bus(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(12): message : see declaration of 'Bus<ItemType>::Bus'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(17,21): error C2086: 'std::vector<Person,std::allocator<Person>> persons': redefinition
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(17): message : see declaration of 'persons'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(19,17): error C2084: function 'std::vector<Person,std::allocator<Person>> Getpersons(void)' already has a body
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(19): message : see previous definition of 'Getpersons'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(21,22): error C2995: 'void Bus<ItemType>::Setpersons(ItemType &)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(15): message : see declaration of 'Bus<ItemType>::Setpersons'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(24,22): error C2995: 'void Bus<ItemType>::loadPerson(ItemType &)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(17): message : see declaration of 'Bus<ItemType>::loadPerson'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(30,22): error C2995: 'void Bus<ItemType>::unloadPerson(ItemType &)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(19): message : see declaration of 'Bus<ItemType>::unloadPerson'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(49,22): error C2995: 'void Bus<ItemType>::emptyAllPeople(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(21): message : see declaration of 'Bus<ItemType>::emptyAllPeople'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(54,21): error C2995: 'int Bus<ItemType>::numberOfPeople(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(23): message : see declaration of 'Bus<ItemType>::numberOfPeople'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(59,22): error C2995: 'void Bus<ItemType>::sortPeople(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(25): message : see declaration of 'Bus<ItemType>::sortPeople'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(74,22): error C2995: 'bool Bus<ItemType>::isEmpty(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(27): message : see declaration of 'Bus<ItemType>::isEmpty'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(85,22): error C2995: 'void Bus<ItemType>::loadItem(Cargo)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(29): message : see declaration of 'Bus<ItemType>::loadItem'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(87,22): error C2995: 'void Bus<ItemType>::unloadItem(Cargo)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(30): message : see declaration of 'Bus<ItemType>::unloadItem'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(89,22): error C2995: 'void Bus<ItemType>::emptyAllItems(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(31): message : see declaration of 'Bus<ItemType>::emptyAllItems'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.cpp(91,21): error C2995: 'int Bus<ItemType>::numberOfItems(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(32): message : see declaration of 'Bus<ItemType>::numberOfItems'
+  Main.cpp
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(11,8): error C2955: 'Train': use of class template requires template argument list
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(9): message : see declaration of 'Train'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(11,13): error C2133: 'train': unknown size
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(11,8): error C2512: 'Train': no appropriate default constructor available
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(9,1): message : see declaration of 'Train'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(12,9): error C2133: 'bus': unknown size
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(12,6): error C2512: 'Bus': no appropriate default constructor available
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(9,1): message : see declaration of 'Bus'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(14,35): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(15,36): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(17,29): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(18,30): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(20,22): error C2662: 'void Train<ItemType>::loadItem(Cargo)': cannot convert 'this' pointer from 'Train' to 'Train<ItemType> &'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(20,22): message : Reason: cannot convert from 'Train' to 'Train<ItemType>'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(20,2): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(15,7): message : see declaration of 'Train<ItemType>::loadItem'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(21,23): error C2662: 'void Train<ItemType>::loadItem(Cargo)': cannot convert 'this' pointer from 'Train' to 'Train<ItemType> &'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(21,23): message : Reason: cannot convert from 'Train' to 'Train<ItemType>'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(21,2): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(15,7): message : see declaration of 'Train<ItemType>::loadItem'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(23,23): error C2662: 'void Bus<ItemType>::loadPerson(ItemType &)': cannot convert 'this' pointer from 'Bus' to 'Bus<ItemType> &'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(23,23): message : Reason: cannot convert from 'Bus' to 'Bus<ItemType>'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(23,2): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(17,7): message : see declaration of 'Bus<ItemType>::loadPerson'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(24,24): error C2662: 'void Bus<ItemType>::loadPerson(ItemType &)': cannot convert 'this' pointer from 'Bus' to 'Bus<ItemType> &'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(24,24): message : Reason: cannot convert from 'Bus' to 'Bus<ItemType>'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(24,2): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(17,7): message : see declaration of 'Bus<ItemType>::loadPerson'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(26,53): error C2662: 'int Train<ItemType>::numberOfItems(void) const': cannot convert 'this' pointer from 'Train' to 'const Train<ItemType> &'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(26,53): message : Reason: cannot convert from 'Train' to 'const Train<ItemType>'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(26,33): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(19,6): message : see declaration of 'Train<ItemType>::numberOfItems'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(27,53): error C2662: 'int Bus<ItemType>::numberOfPeople(void)': cannot convert 'this' pointer from 'Bus' to 'Bus<ItemType> &'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(27,53): message : Reason: cannot convert from 'Bus' to 'Bus<ItemType>'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Main.cpp(27,34): message : Conversion requires a second user-defined-conversion operator or constructor
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Bus.h(23,6): message : see declaration of 'Bus<ItemType>::numberOfPeople'
+  Train.cpp
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Transporter.h(18,1): error C2061: syntax error: identifier 'Person'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Transporter.h(22): message : see reference to class template instantiation 'Transporter<ItemType>' being compiled
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Transporter.h(19,1): error C2061: syntax error: identifier 'Person'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(13,18): error C2995: 'Train<ItemType>::Train(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(13): message : see declaration of 'Train<ItemType>::Train'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(17,20): error C2086: 'std::vector<Cargo,std::allocator<Cargo>> myvecCarg': redefinition
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(17): message : see declaration of 'myvecCarg'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(22,16): error C2084: function 'std::vector<Cargo,std::allocator<Cargo>> Getcargo(void)' already has a body
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(22): message : see previous definition of 'Getcargo'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(24,7): error C2084: function 'void Setcargo(std::vector<Cargo,std::allocator<Cargo>>)' already has a body
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(24): message : see previous definition of 'Setcargo'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(27,23): error C2995: 'int Train<ItemType>::numberOfItems(void) const': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(19): message : see declaration of 'Train<ItemType>::numberOfItems'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(32,24): error C2995: 'void Train<ItemType>::loadItem(Cargo)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(15): message : see declaration of 'Train<ItemType>::loadItem'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(37,24): error C2995: 'void Train<ItemType>::unloadItem(Cargo)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(16): message : see declaration of 'Train<ItemType>::unloadItem'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(57,24): error C2995: 'bool Train<ItemType>::isEmpty(void) const': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(18): message : see declaration of 'Train<ItemType>::isEmpty'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(68,24): error C2995: 'void Train<ItemType>::emptyAllItems(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(17): message : see declaration of 'Train<ItemType>::emptyAllItems'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(73,24): error C2995: 'void Train<ItemType>::loadPerson(ItemType &)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(20): message : see declaration of 'Train<ItemType>::loadPerson'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(75,24): error C2995: 'void Train<ItemType>::unloadPerson(ItemType &)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(21): message : see declaration of 'Train<ItemType>::unloadPerson'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(77,24): error C2995: 'void Train<ItemType>::emptyAllPeople(void)': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(22): message : see declaration of 'Train<ItemType>::emptyAllPeople'
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.cpp(79,23): error C2995: 'int Train<ItemType>::numberOfPeople(void) const': function template has already been defined
+C:\homework1-austinjaro\MoveNShake_Main\MoveNShake_Main\Train.h(23): message : see declaration of 'Train<ItemType>::numberOfPeople'
+  Generating Code...
